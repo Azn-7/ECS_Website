@@ -39,9 +39,9 @@ ul {
 }
 
 .footerImg{
-    margin: 0;
+    margin: 0 2% 0 2%;
     padding: 0;
-    display: inline-flexbox;
+    display: inline;
 }
 
 li {
