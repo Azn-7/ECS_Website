@@ -38,8 +38,13 @@ ul {
     margin: 0
 }
 
+.footerImg{
+    margin: 0;
+    padding: 0;
+    display: inline-flexbox;
+}
+
 li {
     margin: 0;
     padding: 0;
 }
-
