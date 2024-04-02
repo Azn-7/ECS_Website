@@ -45,7 +45,7 @@ ul {
 
 .footerImg{
     margin: 0 30px 0 30px;
-    height: min(64px, 5vw)
+    height: min(64px, 10vw)
 }
 
 li {
