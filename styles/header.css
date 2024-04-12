@@ -22,3 +22,30 @@ h1 {
     font-size: 4.5vh;
     margin: 0;
 }
+
+.navbar {
+    float: left;
+    display: block;
+    margin: 0;
+    padding-left: 0px;
+    font-size: 0; /* Removes whitespace */
+}
+
+.navbar-item {
+    display: inline-block;
+    padding: 3vh 0 3vh 0;
+    width: 20vw;
+    height:3vh;
+    font-size: 3vh;
+    background-color: black;
+    color: white;
+    white-space: none;
+    ::active{
+        background-color: rgb(167, 62, 88);
+        color: white;
+    }
+}
+
+.navbar-item:hover{
+    color: rgb(116, 43, 61);
+}
