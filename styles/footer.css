@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.footer {
+    width: 100vw;
+    text-align: center;
+    height: min-content;
+    background-color: rgb(116, 43, 61);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footerImg {
+    margin: 2vh 2.5vw 2vh 2.5vw;
+    height: 8vh;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    display: inline;
+}
