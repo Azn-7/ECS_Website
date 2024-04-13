@@ -1,7 +1,9 @@
 * {
     font-family: "DejaVu Sans Mono", monospace;
-    color: rgb(116, 43, 61);
+    --mpc-red: rgb(116, 43, 61);
+    color: var(--mpc-red);
     text-align: center;
+
 }
 
 body {
@@ -16,10 +18,10 @@ body {
 }
 
 h1 {
-    background: rgb(116, 43, 61);
+    background: var(--mpc-red);
     color: rgb(255, 255, 255);
     height: 5vh;
-    font-size: 4.5vh;
+    font-size: max(2vw, 3vh);
     margin: 0;
 }
 
@@ -28,24 +30,36 @@ h1 {
     display: block;
     margin: 0;
     padding-left: 0px;
-    font-size: 0; /* Removes whitespace */
+    /* Removes whitespace */
+    font-size: 0;
 }
 
 .navbar-item {
     display: inline-block;
-    padding: 3vh 0 3vh 0;
+    padding: 2vh 0 2vh 0;
     width: 20vw;
-    height:3vh;
-    font-size: 3vh;
-    background-color: black;
+    height: 3vh;
+    font-size: 1.5vw;
+    background-color: gray;
     color: white;
     white-space: none;
-    ::active{
-        background-color: rgb(167, 62, 88);
-        color: white;
-    }
+    text-decoration: none;
 }
 
-.navbar-item:hover{
-    color: rgb(116, 43, 61);
+.nav-link {
+    background: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item:visited,
+.navbar-item:link {
+    background-color: gray;
+    color: white;
+}
+
+.navbar-item:hover,
+.nav-link:hover {
+    background-color: var(--mpc-red);
+    color: white;
 }
