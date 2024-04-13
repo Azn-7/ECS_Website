@@ -4,14 +4,14 @@ body {
 }
 
 .footer {
-    width: 100vw;
+    width: 100%;
     text-align: center;
     height: min-content;
     background-color: rgb(116, 43, 61);
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 

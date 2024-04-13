@@ -8,20 +8,20 @@ body {
     margin: 0
 }
 
-h1 {
-    background: rgb(116, 43, 61);
-    color: rgb(255, 255, 255);
-    width: 100%;
-    text-align: center;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    margin-top: 0;
+h2{
+    margin-top: 3vh;
 }
 
 p {
     max-width: 700px;
     text-align: center;
     margin: auto;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    display: inline;
 }
 
 
@@ -33,8 +33,15 @@ p {
     border: 3px inset rgb(116, 43, 61);
 }
 
-li {
-    margin: 0;
-    padding: 0;
-    display: inline;
+.calendar{
+    width: max(50vw, 700px);
+    height: max(60vh, 500px);
+    text-align: center;
+    border: 0;
+}
+
+/* Use this div around all site content. Should automatically handle spacing around header & footer*/
+.content{
+    margin-top: 16vh;
+    margin-bottom: 5vh;
 }

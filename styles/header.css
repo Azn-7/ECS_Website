@@ -15,13 +15,14 @@ body {
     top: 0;
     width: 100vw;
     text-align: center;
+    align-self: flex-start;
 }
 
-h1 {
+.club-name {
     background: var(--mpc-red);
     color: rgb(255, 255, 255);
-    height: 5vh;
-    font-size: max(2vw, 3vh);
+    font-size: 4vh;
+    padding: 2vh 0 2vh 0;
     margin: 0;
 }
 
@@ -36,19 +37,12 @@ h1 {
 
 .navbar-item {
     display: inline-block;
-    padding: 2vh 0 2vh 0;
+    padding: 1.5vh 0 1.5vh 0;
     width: 20vw;
-    height: 3vh;
-    font-size: 1.5vw;
+    font-size: 2.5vh;
     background-color: gray;
     color: white;
     white-space: none;
-    text-decoration: none;
-}
-
-.nav-link {
-    background: transparent;
-    color: white;
     text-decoration: none;
 }
 
@@ -59,7 +53,7 @@ h1 {
 }
 
 .navbar-item:hover,
-.nav-link:hover {
+.navbar-item:active {
     background-color: var(--mpc-red);
     color: white;
 }
