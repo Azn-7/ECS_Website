@@ -10,7 +10,7 @@ body {
     background-color: rgb(116, 43, 61);
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 2vh 0 4vh 0;
     position: sticky;
     bottom: 0;
 }
