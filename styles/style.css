@@ -1,6 +1,7 @@
 * {
     font-family: "DejaVu Sans Mono", monospace;
-    color: rgb(116, 43, 61);
+    --mpc-red: rgb(116, 43, 61);
+    color: var(--mpc-red);
     text-align: center;
 }
 
@@ -10,6 +11,11 @@ body {
 
 h2 {
     margin-top: 3vh;
+}
+
+h3 {
+    color: black;
+    text-decoration: underline;
 }
 
 p {
@@ -31,7 +37,7 @@ li {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 2vh;
-    border: 3px inset rgb(116, 43, 61);
+    border: 3px inset var(--mpc-red);
 }
 
 .calendar {
