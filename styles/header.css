@@ -21,9 +21,10 @@ body {
 .club-name {
     background: var(--mpc-red);
     color: rgb(255, 255, 255);
-    font-size: 4vh;
-    padding: 2vh 0 2vh 0;
+    font-size: 2vw;
+    padding: 2.2vh 0 2.2vh 0;
     margin: 0;
+    white-space: nowrap;
 }
 
 .navbar {

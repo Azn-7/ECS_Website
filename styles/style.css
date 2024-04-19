@@ -8,7 +8,7 @@ body {
     margin: 0
 }
 
-h2{
+h2 {
     margin-top: 3vh;
 }
 
@@ -26,14 +26,15 @@ li {
 
 
 .exImg {
-    float: left;
-    height: 200px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    align-self: center;
+    height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2vh;
     border: 3px inset rgb(116, 43, 61);
 }
 
-.calendar{
+.calendar {
     width: max(50vw, 700px);
     height: max(60vh, 500px);
     text-align: center;
@@ -41,7 +42,10 @@ li {
 }
 
 /* Use this div around all site content. Should automatically handle spacing around header & footer*/
-.content{
+.content {
     margin-top: 16vh;
     margin-bottom: 5vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right:0;
 }
