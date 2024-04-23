@@ -7,17 +7,18 @@ body {
     width: 100%;
     text-align: center;
     height: min-content;
+    font-size: 0;
     background-color: rgb(116, 43, 61);
     list-style-type: none;
     margin: 0;
-    padding: 2vh 0 4vh 0;
+    padding: 0;
     position: sticky;
     bottom: 0;
 }
 
 
 .footerImg {
-    margin: 2vh 2.5vw 2vh 2.5vw;
+    margin: 3vh 3vw 3vh 3vw;
     height: 8vh;
     padding: 0;
 }
