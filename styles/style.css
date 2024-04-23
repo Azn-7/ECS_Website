@@ -9,13 +9,19 @@ body {
     margin: 0
 }
 
-h2 {
-    margin-top: 3vh;
-}
-
 h3 {
     color: black;
     text-decoration: underline;
+}
+
+.errorMsg {
+    font-size: 15vh;
+    padding-top: 5vh;
+}
+
+.errorTip {
+    font-size: 5vh;
+    color: gray;
 }
 
 p {
