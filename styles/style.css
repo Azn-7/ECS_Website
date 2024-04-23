@@ -49,10 +49,12 @@ li {
 
 /* Use this div around all site content. Should automatically handle spacing around header & footer*/
 .content {
-    margin-top: 18vh;
+    /* Header height around 15vh*/
+    /* Footer height is 14vh*/
+    margin-top: 17vh;
     margin-bottom: 2vh;
-    min-height:66vh;
+    min-height: 67vh;
     width: 100%;
     margin-left: 0;
-    margin-right:0;
+    margin-right: 0;
 }
