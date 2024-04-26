@@ -47,8 +47,8 @@ li {
 }
 
 .calendar {
-    width: max(50vw, 800px);
-    height: max(60vh, 600px);
+    width: 50vw;
+    height: 53vh;
     text-align: center;
     border: 0;
 }
