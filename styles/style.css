@@ -36,6 +36,11 @@ li {
     display: inline;
 }
 
+.projectDisplay {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .exImg {
     align-self: center;
