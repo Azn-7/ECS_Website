@@ -39,7 +39,7 @@ body {
 .navbar-item {
     display: inline-block;
     padding: 2vh 0 2vh 0;
-    width: 20vw;
+    width: 25vw;
     font-size: min(2.5vw, 2.5vh);
     background-color: gray;
     color: white;
