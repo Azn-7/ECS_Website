@@ -1,6 +1,5 @@
 * {
     font-family: "DejaVu Sans Mono", monospace;
-    --mpc-red: rgb(116, 43, 61);
     color: var(--mpc-red);
     text-align: center;
 
