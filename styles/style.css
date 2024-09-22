@@ -52,10 +52,11 @@ li {
 }
 
 .calendar {
-    width: 50vw;
+    width: min(90vw,11in);
     height: 53vh;
     text-align: center;
     border: 0;
+    margin-top:1.5vh
 }
 
 /* Use this div around all site content. Should automatically handle spacing around header & footer*/
