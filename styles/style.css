@@ -1,6 +1,9 @@
+:root {
+    --mpc-red: rgb(134, 0, 56);
+}
 * {
     font-family: "DejaVu Sans Mono", monospace;
-    --mpc-red: rgb(134, 0, 56);
+    
     color: var(--mpc-red);
     text-align: center;
 }
@@ -30,7 +33,7 @@ p {
     margin: auto;
 }
 
-li {
+.content li {
     margin: 0;
     padding: 0;
     display: inline;
